@@ -1223,7 +1223,23 @@ footer .contact-form button.filled-button:hover {
 	font-size: 15px;
 }
 
+.currency_container {
+    display: flex;
+    justify-content: center;
+    max-width: 30rem;
+    width: 100%;
+}
 
+.currency_container button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+.support_currency .currency_container img {
+    height: 1.5rem;
+    margin-right: 0.7rem;
+}
 
 
 /* Responsive Style */
