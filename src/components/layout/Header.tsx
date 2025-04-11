@@ -11,12 +11,12 @@ const Header = () => {
       </div>
       
       <nav className="hidden md:flex items-center space-x-8">
-        <a href="hero" className="text-sm text-axecraft-dark hover:text-gray-600 transition-colors">Home</a>
-        <a href="#footer" className="text-sm text-axecraft-dark hover:text-gray-600 transition-colors">About us</a>
-        <a href="#services" className="text-sm text-axecraft-dark hover:text-gray-600 transition-colors">Our Services</a>
+        <a href="hero" className="text-sm text-axecraft-dark hover:text-gray-600 transition-colors pointer">Home</a>
+        <a href="#footer" className="text-sm text-axecraft-dark hover:text-gray-600 transition-colors pointer">About us</a>
+        <a href="#services" className="text-sm text-axecraft-dark hover:text-gray-600 transition-colors pointer">Our Services</a>
 
-        <a href="https://app.axecraft.co/">
-        <Button className="bg-axecraft-green hover:bg-[#a7e844] text-axecraft-dark font-medium px-6 py-2 rounded-md text-sm pointer">
+        <a href="https://app.axecraft.co/" className='pointer'>
+        <Button className="bg-axecraft-green hover:bg-[#a7e844] text-axecraft-dark font-medium px-6 py-2 rounded-md text-sm ">
           Log In
         </Button>
         </a>

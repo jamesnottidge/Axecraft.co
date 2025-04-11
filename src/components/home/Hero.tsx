@@ -17,7 +17,7 @@ const Hero = () => {
           <p className="text-black text-[20px] mb-8 max-w-lg">
             Move money easily and make payments through our FX network
           </p>
-          <a href="https://app.axecraft.co/">
+          <a href="https://app.axecraft.co/" className="pointer">
           <Button className="bg-axecraft-green hover:bg-[#a7e844] text-axecraft-dark font-medium px-12 py-8 text-[20px] rounded-lg pointer">
             Get Started
           </Button>
