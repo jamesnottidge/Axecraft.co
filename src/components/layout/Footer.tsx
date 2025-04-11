@@ -7,7 +7,7 @@ import { ImYoutube } from "react-icons/im";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-black text-white py-32">
+    <footer id='footer' className="w-full bg-black text-white py-32">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between">
           
@@ -31,8 +31,8 @@ const Footer = () => {
                 <h3 className="text-white text-sm font-semibold mb-4">Links</h3>
                 <ul className="space-y-2">
                   <li><Link to="/" className="text-gray-400 hover:text-axecraft-green text-sm transition-colors">Home</Link></li>
-                  <li><Link to="/about" className="text-gray-400 hover:text-axecraft-green text-sm transition-colors">About Us</Link></li>
-                  <li><Link to="/solutions" className="text-gray-400 hover:text-axecraft-green text-sm transition-colors">Contact us</Link></li>
+                  <li><Link to="/" className="text-gray-400 hover:text-axecraft-green text-sm transition-colors">About Us</Link></li>
+                  <li><Link to="/" className="text-gray-400 hover:text-axecraft-green text-sm transition-colors">Contact us</Link></li>
                 </ul>
               </div>
 

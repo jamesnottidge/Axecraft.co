@@ -6,7 +6,7 @@ import { images } from '../images';
 
 const Services = () => {
   return (
-    <section className="w-full bg-[#FAFFF5] py-16 md:py-24">
+    <section id='services' className="w-full bg-[#FAFFF5] py-16 md:py-24">
       <div className="container px-6">
         <div className="text-center mb-12">
           <h2 className="text-5xl font-bold text-[#669B18] mb-2">Our Financial Services</h2>

@@ -3,7 +3,7 @@ import { images } from "../images";
 
 const Hero = () => {
   return (
-    <section className="w-full bg-gradient-to-b from-[#F5F9FF] via-[#C2D9FF] to-[#F5F9FF] py-16 md:py-24 relative">
+    <section id="hero" className="w-full bg-gradient-to-b from-[#F5F9FF] via-[#C2D9FF] to-[#F5F9FF] py-16 md:py-24 relative">
       <img src={images.HeroVector} alt="" className="" />
 
       {/* absolute container */}
@@ -17,9 +17,11 @@ const Hero = () => {
           <p className="text-black text-[20px] mb-8 max-w-lg">
             Move money easily and make payments through our FX network
           </p>
-          <Button className="bg-axecraft-green hover:bg-opacity-90 text-axecraft-dark font-medium px-12 py-8 text-[20px] rounded-lg">
+          <a href="https://app.axecraft.co/">
+          <Button className="bg-axecraft-green hover:bg-[#a7e844] text-axecraft-dark font-medium px-12 py-8 text-[20px] rounded-lg pointer">
             Get Started
           </Button>
+          </a>
         </div>
 
         <div className="w-full md:w-1/2 flex justify-center">
