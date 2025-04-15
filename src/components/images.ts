@@ -16,6 +16,9 @@ import Avatar5 from "../assets/images/avatar5.svg"
 import VerifiedBadge from "../assets/images/verified badge.svg"
 import FooterVector from "../assets/images/footer vector.svg"
 import HeroVector from "../assets/images/hero vector.svg"
+import AxecraftLogoGreen from "../assets/images/axecraft-logo-green.svg"
+import AxecraftLogoBlack from "../assets/images/axecraft-logo-black.svg"
+import CountryFlags from "../assets/images/Currencies.svg"
 
 export const images = {
     HeroSecImg1,
@@ -35,5 +38,8 @@ export const images = {
     Avatar5,
     VerifiedBadge,
     FooterVector,
-    HeroVector
+    HeroVector,
+    AxecraftLogoBlack,
+    AxecraftLogoGreen,
+    CountryFlags
 };
