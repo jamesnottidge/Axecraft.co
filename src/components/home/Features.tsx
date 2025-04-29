@@ -20,12 +20,12 @@ const Features = () => {
 
         <div className="flex flex-col gap-8 md:gap-16 w-full">
           <div className="flex flex-col md:flex-row justify-center gap-5 items-center">
-            <img src={images.Features1} alt="" className="rounded-md w-[80%] md:w-[30%]" />
-            <img src={images.Features2} alt="" className="rounded-md w-[80%] md:w-[30%]" />
+            <img src={images.Features1} alt="" className="rounded-md w-[80%] md:w-[30%]" data-aos="fade-up" />
+            <img src={images.Features2} alt="" className="rounded-md w-[80%] md:w-[30%]" data-aos="fade-up" />
           </div>
           <div className="flex flex-col md:flex-row justify-center gap-5 items-center">
-            <img src={images.Features3} alt="" className="rounded-md w-[80%] md:w-[30%]" />
-            <img src={images.Features4} alt="" className="rounded-md w-[80%] md:w-[30%]" />
+            <img src={images.Features3} alt="" className="rounded-md w-[80%] md:w-[30%]" data-aos="fade-up"/>
+            <img src={images.Features4} alt="" className="rounded-md w-[80%] md:w-[30%]" data-aos="fade-up"/>
           </div>
         </div>
 
