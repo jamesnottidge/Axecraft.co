@@ -13,7 +13,7 @@ const Features = () => {
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-20">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-white mb-2">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-white mb-2 mt-16">
             Achieve more with <br className='md:hidden' /> <span className="text-axecraft-green font-bold">Axecraft</span>
           </h2>
         </div>
