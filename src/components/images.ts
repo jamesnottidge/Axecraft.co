@@ -19,6 +19,11 @@ import HeroVector from "../assets/images/hero vector.svg"
 import AxecraftLogoGreen from "../assets/images/axecraft-logo-green.svg"
 import AxecraftLogoBlack from "../assets/images/axecraft-logo-black.svg"
 import CountryFlags from "../assets/images/Currencies.svg"
+// import FeatureVector21 from "../assets/images/feature2-1.svg"
+// import FeatureVector22 from "../assets/images/feature2-2.svg"
+// import FeaturesVector3 from "./assets/images/features3.svg"
+// import FeaturesVector4 from "./assets/images/features4.svg"
+
 
 export const images = {
     HeroSecImg1,
@@ -41,5 +46,9 @@ export const images = {
     HeroVector,
     AxecraftLogoBlack,
     AxecraftLogoGreen,
-    CountryFlags
+    CountryFlags,
+    // FeatureVector21,
+    // FeatureVector22,
+    // FeaturesVector3,
+    // FeaturesVector4
 };

@@ -22,10 +22,10 @@ const Testimonials = () => {
               <img src={images.Avatar1} alt="" className="w-10 md:w-auto" />
               <div>
                 <p className="flex items-center gap-3 font-semibold">
-                  Priya
+                Eliana
                   <img src={images.VerifiedBadge} alt="" />
                 </p>
-                <p>@Priyaa</p>
+                <p>@ElianeGrace</p>
               </div>
             </div>
             <p className="text-gray-700">
@@ -41,10 +41,10 @@ const Testimonials = () => {
               <img src={images.Avatar2} alt="" className="w-10 md:w-auto" />
               <div>
                 <p className="flex items-center gap-3 font-semibold">
-                  Chen
+                Wei
                   <img src={images.VerifiedBadge} alt="" />
                 </p>
-                <p>@Chen007</p>
+                <p>@WeiJunLi </p>
               </div>
             </div>
             <p className="text-gray-700">
@@ -60,10 +60,10 @@ const Testimonials = () => {
               <img src={images.Avatar3} alt="" className="w-10 md:w-auto" />
               <div>
                 <p className="flex items-center gap-3 font-semibold">
-                  gregory
+                  Ayo
                   <img src={images.VerifiedBadge} alt="" />
                 </p>
-                <p>@gregthegreat</p>
+                <p>@AyomideOsun</p>
               </div>
             </div>
             <p className="text-gray-700">
@@ -81,10 +81,10 @@ const Testimonials = () => {
               <img src={images.Avatar4} alt="" className="w-10 md:w-auto" />
               <div>
                 <p className="flex items-center gap-3 font-semibold">
-                  Mo Salah
+                Nathaniel 
                   <img src={images.VerifiedBadge} alt="" />
                 </p>
-                <p>@actualmosalah</p>
+                <p>@NathanielJames </p>
               </div>
             </div>
             <p className="text-gray-700">
@@ -100,10 +100,10 @@ const Testimonials = () => {
               <img src={images.Avatar5} alt="" className="w-10 md:w-auto" />
               <div>
                 <p className="flex items-center gap-3 font-semibold">
-                  Cole Palmer
+                Logan
                   <img src={images.VerifiedBadge} alt="" />
                 </p>
-                <p>@Penalmer</p>
+                <p>@LoganAlexander</p>
               </div>
             </div>
             <p className="text-gray-700">

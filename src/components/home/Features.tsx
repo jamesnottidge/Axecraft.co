@@ -2,7 +2,7 @@ import { images } from '../images';
 
 const Features = () => {
   return (
-    <section className="relative w-full bg-axecraft-dark pb-16 md:pb-24 overflow-hidden flex items-center flex-col gap-20">
+    <section className="relative w-full bg-[#000000] pb-16 md:pb-24 overflow-hidden flex items-center flex-col gap-20">
       <div className='w-full flex justify-center relative'>
           <img src={images.Vector1} alt="" className='w-[90%] scale-y-[3] md:scale-y-[2] md:w-[80%]' />
           <div className='absolute flex items-center flex-col gap-1 md:gap-2 mt-3'>
@@ -18,16 +18,17 @@ const Features = () => {
           </h2>
         </div>
 
-        <div className="flex flex-col gap-8 md:gap-16 w-full ">
-          <div className='flex justify-center gap-5'>
-            <img src={images.Features1} alt="" className="rounded-md w-[40%] md:w-[30%] border border-[#1f1f1f]" />
-            <img src={images.Features2} alt="" className="rounded-md w-[40%] md:w-[30%] border border-[#1f1f1f]" />
+        <div className="flex flex-col gap-8 md:gap-16 w-full">
+          <div className="flex flex-col md:flex-row justify-center gap-5 items-center">
+            <img src={images.Features1} alt="" className="rounded-md w-[80%] md:w-[30%]" />
+            <img src={images.Features2} alt="" className="rounded-md w-[80%] md:w-[30%]" />
           </div>
-          <div className='flex justify-center gap-5'>
-            <img src={images.Features3} alt="" className="rounded-md w-[40%] md:w-[30%] border border-[#1f1f1f] " />
-            <img src={images.Features4} alt="" className="rounded-md w-[40%] md:w-[30%] border border-[#1f1f1f]" />
+          <div className="flex flex-col md:flex-row justify-center gap-5 items-center">
+            <img src={images.Features3} alt="" className="rounded-md w-[80%] md:w-[30%]" />
+            <img src={images.Features4} alt="" className="rounded-md w-[80%] md:w-[30%]" />
           </div>
         </div>
+
       </div>
     </section>
   );
