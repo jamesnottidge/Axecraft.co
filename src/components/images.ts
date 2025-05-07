@@ -19,6 +19,10 @@ import HeroVector from "../assets/images/hero vector.svg"
 import AxecraftLogoGreen from "../assets/images/axecraft-logo-green.svg"
 import AxecraftLogoBlack from "../assets/images/axecraft-logo-black.svg"
 import CountryFlags from "../assets/images/Currencies.svg"
+import AvatarSec1 from "../assets/images/Avatar2-1.png"
+import AvatarSec2 from "../assets/images/Avatar2-2.png"
+import AvatarSec3 from "../assets/images/Avatar2-3.png"
+
 // import FeatureVector21 from "../assets/images/feature2-1.svg"
 // import FeatureVector22 from "../assets/images/feature2-2.svg"
 // import FeaturesVector3 from "./assets/images/features3.svg"
@@ -47,6 +51,9 @@ export const images = {
     AxecraftLogoBlack,
     AxecraftLogoGreen,
     CountryFlags,
+    AvatarSec1,
+    AvatarSec2,
+    AvatarSec3
     // FeatureVector21,
     // FeatureVector22,
     // FeaturesVector3,

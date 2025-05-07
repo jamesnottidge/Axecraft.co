@@ -19,13 +19,13 @@ const Testimonials = () => {
 
           <div className="flex flex-col border rounded-2xl p-2 md:p-5 w-[90%] lg:w-[25%] gap-5" data-aos="fade-up">
             <div className="flex gap-2 md:gap-5 items-center">
-              <img src={images.Avatar1} alt="" className="w-10 md:w-auto" />
+              <img src={images.AvatarSec2} alt="" className="w-10 md:w-12 rounded-full" />
               <div>
                 <p className="flex items-center gap-3 font-semibold">
-                Eliana
+                Kenny
                   <img src={images.VerifiedBadge} alt="" />
                 </p>
-                <p>@ElianeGrace</p>
+                <p>@ObiKennechukwu</p>
               </div>
             </div>
             <p className="text-gray-700">
@@ -78,13 +78,13 @@ const Testimonials = () => {
 
           <div className="flex flex-col border rounded-2xl p-2 md:p-5 w-[90%] lg:w-[25%] gap-5" data-aos="fade-up">
             <div className="flex gap-2 md:gap-5 items-center">
-              <img src={images.Avatar4} alt="" className="w-10 md:w-auto" />
+              <img src={images.AvatarSec1} alt="" className="w-10  md:w-12 rounded-full" />
               <div>
                 <p className="flex items-center gap-3 font-semibold">
-                Nathaniel 
+                Imani 
                   <img src={images.VerifiedBadge} alt="" />
                 </p>
-                <p>@NathanielJames </p>
+                <p>@BrianImani </p>
               </div>
             </div>
             <p className="text-gray-700">
@@ -100,10 +100,10 @@ const Testimonials = () => {
               <img src={images.Avatar5} alt="" className="w-10 md:w-auto" />
               <div>
                 <p className="flex items-center gap-3 font-semibold">
-                Logan
+                Henry
                   <img src={images.VerifiedBadge} alt="" />
                 </p>
-                <p>@LoganAlexander</p>
+                <p>@HenryShneider</p>
               </div>
             </div>
             <p className="text-gray-700">
