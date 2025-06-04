@@ -18,7 +18,7 @@ const Contact = () => {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {/* Email Card */}
             <a 
-              href="mailto:support@axecraft.co" 
+              href="mailto:hello@axecraft.co" 
               className="bg-gray-50 p-8 rounded-lg hover:bg-axecraft-green hover:text-black transition-all duration-300 group shadow-sm"
             >
               <div className="flex items-center gap-4 mb-4">
@@ -26,7 +26,7 @@ const Contact = () => {
                 <h2 className="text-2xl font-semibold">Email Us</h2>
               </div>
               <p className="text-gray-600 group-hover:text-black">Send us an email anytime. We'll get back to you as soon as possible.</p>
-              <p className="mt-4 font-medium">support@axecraft.co</p>
+              <p className="mt-4 font-medium">hello@axecraft.co</p>
             </a>
 
             {/* WhatsApp Card */}
