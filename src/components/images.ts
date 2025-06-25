@@ -22,6 +22,7 @@ import CountryFlags from "../assets/images/Currencies.svg"
 import AvatarSec1 from "../assets/images/Avatar2-1.png"
 import AvatarSec2 from "../assets/images/Avatar2-2.png"
 import AvatarSec3 from "../assets/images/Avatar2-3.png"
+import Certficate  from "../assets/images/icons8-certificate-100.png"
 
 // import FeatureVector21 from "../assets/images/feature2-1.svg"
 // import FeatureVector22 from "../assets/images/feature2-2.svg"
@@ -53,7 +54,8 @@ export const images = {
     CountryFlags,
     AvatarSec1,
     AvatarSec2,
-    AvatarSec3
+    AvatarSec3,
+    Certficate,
     // FeatureVector21,
     // FeatureVector22,
     // FeaturesVector3,
