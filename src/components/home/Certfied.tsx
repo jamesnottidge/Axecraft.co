@@ -4,7 +4,7 @@ import { Shield } from 'lucide-react'
 
 const Certfied = () => {
   return (
-    <div className='bg-[#FAFFF5] w-full px-32 my-10'>
+    <div className='bg-[#FAFFF5] w-full  my-10'>
         <section data-aos="fade-up" className="w-full bg-white rounded-lg py-16 md:py-14">
         <div className="container px-6 mx-auto">
             <div className="text-center mb-3">
