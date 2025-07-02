@@ -5,6 +5,7 @@ import { TbBrandFacebookFilled } from "react-icons/tb";
 import { PiInstagramLogoBold } from "react-icons/pi";
 import { ImYoutube } from "react-icons/im";
 import { images } from '../images';
+import { PiCertificateBold } from "react-icons/pi";
 
 const Footer = () => {
   return (
@@ -20,6 +21,12 @@ const Footer = () => {
             <p className='text-[#FFFFFFC7]'>We are Powering the FX behind Africa's Trillion dollar growth</p>
             <p className="text-[#807A7AC7] text-sm mb-6 w-auto leading-7">
             The Transactions offered by this Website can be executed only by fully competent adults. Transactions with financial instruments offered on the Website involve substantial risk and trading may be very risky. If you make Transactions with the financial instruments offered on this Website, you might incur substantial losses or even lose everything in your Account. Before you decide to start Transactions with the financial instruments offered on the Website, you must review the Service Agreement and Risk Disclosure Information.</p>
+            
+            {/* <div className='flex items-center gap-2'>
+              <p>We’re MSB liscensed</p>
+              <PiCertificateBold size={30} />
+            </div> */}
+
             <div className="flex space-x-4">
               <a href="#" className="text-white hover:text-axecraft-green transition-colors  border-gray-500 border-2 p-3 rounded-full"> <LiaLinkedinIn size={18} /> </a>
               <a href="#" className="text-white hover:text-axecraft-green transition-colors border-gray-500 border-2 p-3 rounded-full"><TbBrandFacebookFilled size={18} /> </a>

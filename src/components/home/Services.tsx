@@ -13,45 +13,43 @@ const Services = () => {
           </h2>
         </div>
 
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
-  <div className="bg-white rounded-md p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col gap-3 md:gap-6 items-start" data-aos="fade-up">
-    <img src={images.Services1} alt="" className="w-20" />
-    <h3 className="text-xl font-bold text-axecraft-dark mb-3">Corporate Treasury</h3>
-    <p className="text-[#66707F] text-[0.9rem] md:text-xl mb-2 md:mb-6">
-      Axecraft simplifies treasury in Africa and frontier markets by managing your cross-border cash flow and liquidity—so you can focus on growth.
-    </p>
-    <Button variant="link" className="text-[#669B18] text-[0.9rem] md:text-xl p-0 h-auto font-medium">
-      Try it now →
-    </Button>
-  </div>
+          <div className="bg-white rounded-md p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col gap-3 md:gap-6 items-start" data-aos="fade-up">
+            <img src={images.Services1} alt="" className="w-20" />
+            <h3 className="text-xl font-bold text-axecraft-dark mb-3">Corporate Treasury</h3>
+            <p className="text-[#66707F] text-[0.9rem] md:text-xl mb-2 md:mb-6">
+              Professional treasury management with competitive rates. Handle cross-border transactions and maintain liquidity across multiple currencies.
+            </p>
+            <Button variant="link" className="text-[#669B18] text-[0.9rem] md:text-xl p-0 h-auto font-medium">
+              Try it now →
+            </Button>
+          </div>
 
-  <div className="bg-white rounded-md p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col gap-3 md:gap-6 items-start" data-aos="fade-up">
-    <img src={images.Services2} alt="" className="w-20" />
-    <h3 className="text-xl font-bold text-axecraft-dark mb-3">Foreign Exchange</h3>
-    <p className="text-[#66707F] text-[0.9rem] md:text-xl mb-2 md:mb-6">
-      Axecraft delivers smarter FX for Africa and frontier markets—helping you optimize rates, manage risk, and trade digital currencies in one place.
-    </p>
-    <Button variant="link" className="text-[#669B18] text-[0.9rem] md:text-xl p-0 h-auto font-medium">
-      Try it now →
-    </Button>
-  </div>
+          <div className="bg-white rounded-md p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col gap-3 md:gap-6 items-start" data-aos="fade-up">
+            <img src={images.Services2} alt="" className="w-20" />
+            <h3 className="text-xl font-bold text-axecraft-dark mb-3">Foreign Exchange</h3>
+            <p className="text-[#66707F] text-[0.9rem] md:text-xl mb-2 md:mb-6">
+              Access competitive FX rates and execute trades in 40+ currencies. Secure and regulated trading platform for businesses.
+            </p>
+            <Button variant="link" className="text-[#669B18] text-[0.9rem] md:text-xl p-0 h-auto font-medium">
+              Try it now →
+            </Button>
+          </div>
 
-  <div className="md:col-span-2 lg:col-span-1 md:flex lg:block md:justify-center" data-aos="fade-up">
-    <div className="bg-white rounded-md p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col gap-3 md:gap-6 items-start w-full md:w-[80%] lg:w-full">
-      <img src={images.Services3} alt="" className="w-20" />
-      <h3 className="text-xl font-bold text-axecraft-dark mb-3">Payments & Settlement</h3>
-      <p className="text-[#66707F] text-[0.9rem] md:text-xl mb-2 md:mb-6">
-        Axecraft delivers smarter FX for Africa and frontier markets—helping you optimize rates, manage risk, and trade digital currencies in one place.
-      </p>
-      <Button variant="link" className="text-[#669B18] text-[0.9rem] md:text-xl p-0 h-auto font-medium">
-        Try it now →
-      </Button>
-    </div>
-  </div>
-</div>
-
-
-
+          <div className="md:col-span-2 lg:col-span-1 md:flex lg:block md:justify-center" data-aos="fade-up">
+            <div className="bg-white rounded-md p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col gap-3 md:gap-6 items-start w-full md:w-[80%] lg:w-full">
+              <img src={images.Services3} alt="" className="w-20" />
+              <h3 className="text-xl font-bold text-axecraft-dark mb-3">Payments & Settlement</h3>
+              <p className="text-[#66707F] text-[0.9rem] md:text-xl mb-2 md:mb-6">
+                Fast and secure payment processing with real-time settlement. Manage international transfers with full compliance and tracking.
+              </p>
+              <Button variant="link" className="text-[#669B18] text-[0.9rem] md:text-xl p-0 h-auto font-medium">
+                Try it now →
+              </Button>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

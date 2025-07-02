@@ -9,6 +9,7 @@ import Testimonials from '@/components/home/Testimonials';
 import FAQ from '@/components/home/FAQ';
 import "aos/dist/aos.css";
 import AOS from "aos";
+import Certfied from '@/components/home/Certfied';
 // import { toast } from '@/components/ui/use-toast';
 
 const Index = () => {
@@ -33,6 +34,7 @@ const Index = () => {
         <Hero />
         <Features />
         <Services />
+        <Certfied/>
         <Testimonials />
         <FAQ />
       </main>
